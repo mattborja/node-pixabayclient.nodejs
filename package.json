@@ -1,0 +1,22 @@
+{
+  "name": "node-pixabayclient",
+  "version": "1.0.0",
+  "description": "Node.js client library for querying Pixabay API featuring strict parameter validation and automatic URL encoding.",
+  "main": "demo.js",
+  "scripts": {
+    "test": "node demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdev5/node-pixabayclient.git"
+  },
+  "keywords": [
+    "pixabay"
+  ],
+  "author": "Matt Borja <matt.borja@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdev5/node-pixabayclient/issues"
+  },
+  "homepage": "https://github.com/rdev5/node-pixabayclient#readme"
+}
