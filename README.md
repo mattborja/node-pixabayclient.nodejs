@@ -2,13 +2,18 @@
 Client library for querying [Pixabay API](https://pixabay.com/api/docs/) featuring strict parameter validation and automatic URL encoding.
 
 ## Usage
+To install:
+````
+npm install node-pixabayclient
+````
+
 The client library is capable of supporting any endpoint under the same API key by accepting a direct `apiUrl` option as a constructor "argument" as demonstrated below (see also [`demo.js`](https://github.com/rdev5/node-pixabayclient/blob/master/demo.js)).
 
 For a complete list of API endpoints, please see https://pixabay.com/api/docs/.
 
 ### Photos API (https://pixabay.com/api/)
 ````node
-const PixabayApi = require('./path/to/PixabayApi');
+const PixabayApi = require('node-pixabayclient');
 const PixabayPhotos = new PixabayApi({ apiUrl: "https://pixabay.com/api/" });
 
 var params = {
@@ -34,7 +39,7 @@ PixabayPhotos.query(params, function(errors, res, req) {
 
 ### Videos API (https://pixabay.com/api/videos/)
 ````node
-const PixabayApi = require('./path/to/PixabayApi');
+const PixabayApi = require('node-pixabayclient');
 const PixabayVideos = new PixabayApi({ apiUrl: "https://pixabay.com/api/videos/" });
 
 var params = {
