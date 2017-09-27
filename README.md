@@ -4,10 +4,10 @@ Client library for querying Pixabay API featuring strict parameter validation an
 ## Usage
 The client library is capable of supporting current and future API endpoints under the same API key by accepting a direct `apiUrl` option as a constructor "argument."
 
-Below are snippets derived from the original [`demo`](https://github.com/rdev5/node-pixabayclient/blob/master/demo.js) which may be run within the cloned directory using `node demo.js`.
+The below are snippets derived from the original [demo](https://github.com/rdev5/node-pixabayclient/blob/master/demo.js) which may be run within the cloned directory using `node demo.js`.
 
 ### Photos (https://pixabay.com/api/)
-````
+````node
 const PixabayApi = require('./path/to/PixabayApi');
 const PixabayPhotos = new PixabayApi({ apiUrl: "https://pixabay.com/api/" });
 
@@ -33,7 +33,7 @@ PixabayPhotos.query(params, function(errors, res, req) {
 ````
 
 ### Videos (https://pixabay.com/api/videos/)
-````
+````node
 const PixabayApi = require('./path/to/PixabayApi');
 const PixabayVideos = new PixabayApi({ apiUrl: "https://pixabay.com/api/videos/" });
 
