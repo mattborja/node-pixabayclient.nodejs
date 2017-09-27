@@ -2,7 +2,7 @@
   "name": "node-pixabayclient",
   "version": "1.0.0",
   "description": "Node.js client library for querying Pixabay API featuring strict parameter validation and automatic URL encoding.",
-  "main": "demo.js",
+  "main": "./lib/PixabayApi",
   "scripts": {
     "test": "node demo.js"
   },
